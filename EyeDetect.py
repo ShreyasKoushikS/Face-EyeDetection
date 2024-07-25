@@ -1,7 +1,7 @@
 import cv2
 
 detect = cv2.CascadeClassifier("haarcascade_eye.xml")
-imp_img = cv2.VideoCapture("girl.jpg")
+imp_img = cv2.VideoCapture("3.jpg")
 
 res, img = imp_img.read()
 
